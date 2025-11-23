@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include<windows.h>
 
-#include"dist_function.h"
+
 
 void setColor(int color){
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
@@ -799,6 +799,7 @@ void showHotelInfo(char district[], int *totalCost)
     printf("\nHotel Booking Successful!\n");
     printf("Total Hotel Cost for %d day: Rs.%d\n", nights, totalHotelCost);
 }
+
 
 
 
